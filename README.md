@@ -9,6 +9,8 @@ my-todo-app/
 │   └── package.json
 │
 └── frontend/
+│
+└── README
 
 # Desain Database MongoDB
 
