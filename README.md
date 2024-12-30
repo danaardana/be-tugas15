@@ -1,16 +1,14 @@
 # Struktur Folder
 
 my-todo-app/
-│
 ├── backend/
 │   ├── models/
 │   │   ├── todo.js
 │   ├── server.js
 │   └── package.json
-│
 └── frontend/
-│
 └── README
+
 
 # Desain Database MongoDB
 
