@@ -6,7 +6,7 @@ my-todo-app/
 │   │   ├── todo.js
 │   ├── server.js
 │   └── package.json
-└── frontend/
+├── frontend/
 └── README
 
 
