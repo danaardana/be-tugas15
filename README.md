@@ -5,6 +5,7 @@
 Proyek ini adalah aplikasi Todo List yang dibangun menggunakan Vue.js untuk frontend dan Hapi.js untuk backend. Aplikasi ini memungkinkan pengguna untuk menambahkan, mengedit, dan menghapus tugas.
 
 ## Struktur Proyek
+```
 my-todo-app/
 └── backend/
     ├── models/
@@ -13,6 +14,7 @@ my-todo-app/
     │   └── 20230101-create-todos.js
     ├── server.js
     └── package.json
+```
 
 
 ## Cara Menjalankan
