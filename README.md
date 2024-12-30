@@ -1,22 +1,29 @@
-# Struktur Folder
+# My Todo App
 
+## Deskripsi
+
+Proyek ini adalah aplikasi Todo List yang dibangun menggunakan Vue.js untuk frontend dan Hapi.js untuk backend. Aplikasi ini memungkinkan pengguna untuk menambahkan, mengedit, dan menghapus tugas.
+
+## Struktur Proyek
 my-todo-app/
-├── backend/
-│   ├── models/
-│   │   ├── todo.js
-│   ├── server.js
-│   └── package.json
-├── frontend/
-└── README
+└── backend/
+    ├── models/
+    │   └── todo.js
+    ├── migrations/
+    │   └── 20230101-create-todos.js
+    ├── server.js
+    └── package.json
 
 
-# Desain Database MongoDB
+## Cara Menjalankan
 
-## Koleksi: todos
+1. **Jalankan Backend**:
+   - Masuk ke folder backend dan jalankan server:
+   ```bash
+   cd backend
+   bun run server.js
+   ```
 
-| Field      | Tipe Data | Deskripsi                     |
-|------------|-----------|-------------------------------|
-| _id        | ObjectId | Primary key (otomatis)       |
-| task       | String    | Tugas yang harus dilakukan    |
-| completed  | Boolean   | Status tugas (selesai/tidak)  |
-| createdAt  | Date      | Waktu pembuatan tugas         |
+## Teknologi yang Digunakan
+
+- **Backend**: Hapi.js, MongoDB
